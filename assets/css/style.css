@@ -212,6 +212,7 @@ hr {
   text-align: center;
   color: var(--light-blue);
   font-weight: 600;
+  cursor: pointer;
 }
 
 #page_browser > .newer,
@@ -242,6 +243,8 @@ hr {
   border: 1px solid var(--grey);
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
   font-size: 1rem;
   font-weight: 600;
 }
